@@ -15,10 +15,11 @@ This environment provides a unified sandbox for local experimentation with big d
 - Hadoop - 3.4.1
 - Spark - 3.5.1
 - Pig 0.17 runs locally
-- MongoDB  -
-- Flink -
-- Zeppelin -
-- Jupyter -
+- MongoDB  - 4.4.26
+- mongosh - 2.5.8
+- Flink - 2.1.0
+- Zeppelin - 12
+- Jupyter Notebook
 
 Resource recommendations
 * Hadoop - 2 GB, 5 GM disk, 2+ CPU
