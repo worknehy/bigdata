@@ -1,15 +1,25 @@
 # Stockholm University: DSV - BigData Sandbox for Data Engineering, Analytics, and ML – Setup Summary
 This environment provides a unified sandbox for local experimentation with big data tools and frameworks like Hadoop, Spark, Pig, MongoDB, Flink, and Jupyter. Designed for research, education, and prototyping.
 
-**System Overview**
+**How to use**
+- Download using: https://drive.google.com/file/d/1ydVgk_I9hUvmsYkjepVYRGvtCFKDA2e2/view?usp=sharing (or **if you are using Unix OSs on Terminal:** - wget --no-check-certificate '[https://docs.google.com/uc?export=download&id=FILE_ID](https://drive.google.com/file/d/1ydVgk_I9hUvmsYkjepVYRGvtCFKDA2e2/view?usp=sharing)' -O BigData)
+- Use VirtualBox, attach the image downloaded
+- After attaching the image > Start it
+- Specify user: mararow_dsv, and password: mararow12345
+- You can also access it using Command Prompt, Windows PowerShell on Windows computers and Terminal on MacOS or Unix computers using the following SSH:
+   - ssh -p 2222 mararow_dsv@localhost
+   - specify username and password
+   - enter "startservices" <-- to run all services needed for your bigdata anlytics and ML
+ - To access your machine in Zeppelin after starting services, enter **localhost:8080** in your browsers address bar. 
 
-- OS: Ubuntu 20.04 LTS
-- User: mararow_dsv
-- Password: unspecified
-- Python: 3.10.12
-- Java: OpenJDK (version compatible with Spark & Hadoop)
-- Package Manager: pip3, system packages via apt
-- Notebook Interface: Jupyter Notebook
+**System Overview**
+- **OS**: Ubuntu 20.04 LTS
+- **User**: mararow_dsv
+- **Password**: mararow12345
+- **Python**: 3.10.12
+- **Java**: OpenJDK (version compatible with Spark & Hadoop)
+- **Package Manager**: pip3, system packages via apt
+- **Notebook Interface**: Jupyter Notebook and Zeppelin
 
 **Installed Tools (- version)**
 - Hadoop - 3.4.1
